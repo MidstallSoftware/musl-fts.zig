@@ -1,0 +1,11 @@
+.{
+    .name = "musl-fts.zig",
+    .version = "1.2.7",
+    .paths = .{"."},
+    .dependencies = .{
+        .@"musl-fts" = .{
+            .url = "https://github.com/void-linux/musl-fts/archive/refs/tags/v1.2.7.tar.gz",
+            .hash = "1220cc326574f724d468f397b7c0eebb29c143c37cfb55b0a8ff8a3f608050bab9c0",
+        },
+    },
+}
